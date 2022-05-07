@@ -4,7 +4,7 @@ const cors = require('cors');
 const mangoose = require('mongoose');
 require("dotenv").config();
 const { default: mongoose } = require('mongoose');
-const { required } = require('joi');
+
 
 const authRoutes = require('./Routes/authRoutes');
 
